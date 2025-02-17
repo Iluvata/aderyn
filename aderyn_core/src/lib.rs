@@ -7,9 +7,9 @@ pub mod report;
 pub mod visitor;
 
 use audit::auditor::{get_auditor_detectors, AuditorPrinter, BasicAuditorPrinter};
-use cyfrin_foundry_compilers::utils::canonicalize;
 use detect::detector::IssueDetector;
 use eyre::Result;
+use foundry_compilers::utils::canonicalize;
 use fscloc::cloc::When;
 use prettytable::Row;
 use rayon::iter::{

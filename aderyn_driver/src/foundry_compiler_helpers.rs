@@ -5,7 +5,7 @@ use std::{
     str::FromStr,
 };
 
-use cyfrin_foundry_compilers::{
+use foundry_compilers::{
     artifacts::Source, remappings::Remapping, utils, CompilerInput, Project, ProjectPathsConfig,
 };
 
