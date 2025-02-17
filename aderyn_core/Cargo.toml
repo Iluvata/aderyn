@@ -22,7 +22,7 @@ serde-sarif = "0.4.2"
 serde_repr = "0.1.12"
 strum = { version = "0.26", features = ["derive"] }
 toml = "0.8.2"
-foundry-compilers = { git = "https://github.com/Iluvata/foundry-compilers", rev = "095d71a9", features = [
+foundry-compilers = { git = "https://github.com/Iluvata/foundry-compilers", rev = "1d93c94", features = [
     "svm-solc",
 ] }
 num-bigint = "0.4"

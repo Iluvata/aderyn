@@ -1418,7 +1418,7 @@ dependencies = [
 [[package]]
 name = "foundry-compilers"
 version = "0.3.20"
-source = "git+https://github.com/Iluvata/foundry-compilers?rev=095d71a9#095d71a9e2582c6a47b3dbf3cdbafbb298ef5d47"
+source = "git+https://github.com/Iluvata/foundry-compilers?rev=1d93c94#1d93c945501c47f15b99b501df016a7cb57cf715"
 dependencies = [
  "alloy-json-abi",
  "alloy-primitives 0.7.7",
